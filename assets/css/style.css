@@ -1,0 +1,140 @@
+body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.texto {
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive; 
+    font-size: 30px;
+}
+/*
+.centrado{
+    font-size: 30px;
+    text-justify: auto;
+    text-align: center;
+    font-style: Arial;
+}*/
+
+
+header {
+    background-color: #69bd45;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+section {
+    padding: 20px;
+    /* espaciado para la sección de 20 pixeles */
+}
+
+footer {
+    background-color: #4caf50;
+    /* Color de fondo del footer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a:hover{
+    background-color: #18bc46;
+    cursor:pointer;
+}
+
+.footer-content {
+    max-width: 800px;
+    /* Ancho máximo del contenido del footer */
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* separar el contenido del footer horizontalmente */
+    display: inline-block;
+    justify-content: space-around;
+    /*permite mantener el sentido horizontal de los elementos */
+    color: #fff;
+    font-size: 20px;
+}
+
+/* estilos para la barra de navegacion */
+nav {
+    background-color: #4caf50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /*permite mantener el sentido horizontal de los elementos */
+    margin-right: 20px;
+}
+
+/* Adapto el estilo de supertitulo a los enlaces del navbar */
+nav ul li a.supertitulo {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+nav ul li a:hover {
+    background-color: #2f8247;
+    cursor: pointer;
+}
+
+
+img{
+    display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+    margin: 0 auto; /* Centrar las imágenes horizontalmente */
+    max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+    border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+    border-radius: 10px;
+}
+img.miimg {
+    width: 350px;
+    height: 400px;
+}
+
+img.miicono{
+    width: 35px;
+    height: 35px;
+}
+
+/* Super titulo */
+.supertitulo{
+    margin-top: 2px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight:bold;
+    font-size: clamp(3rem, 5vw, 80px); /* Usa clamp para un tamaño de fuente flexible */
+    color: #EBD758;
+    text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68, 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
+}
+
+
+#copyright{
+    font-size: 15px;
+}
+
+p.supertitulo{
+    text-justify: auto;
+    font-size: clamp(3rem, 5vw, 35px);;
+    text-align: center;
+    background-color: #138417;
+    padding: 10px;
+}
+
+span{
+    font-weight: bold;
+}
