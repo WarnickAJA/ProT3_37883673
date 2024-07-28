@@ -31,10 +31,13 @@ $perfil = $session->get("perfil_id");
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="quienes_somos">Quienes Somos</a>
+                        <a class="nav-link" href="<?php echo base_url('quienes_somos') ?>">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="acerca_de">Acerca de</a>
+                        <a class="nav-link" href="<?php echo base_url('acerca_de') ?>">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo base_url('/dashboard') ?>">Panel de Usuarios</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url("/logout"); ?>" tabindex="-1"
@@ -43,9 +46,9 @@ $perfil = $session->get("perfil_id");
                 </ul>
 
                 <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
 
         <?php elseif (session()->perfil_id == 2): ?>
@@ -56,10 +59,10 @@ $perfil = $session->get("perfil_id");
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="quienes_somos">Quienes Somos</a>
+                        <a class="nav-link" href="<?php echo base_url('quienes_somos') ?>">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="acerca_de">Acerca de</a>
+                        <a class="nav-link" href="<?php echo base_url('acerca_de') ?>">Acerca de</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo base_url("/logout"); ?>" tabindex="-1"
@@ -83,9 +86,9 @@ $perfil = $session->get("perfil_id");
                 </ul>
 
                 <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
             </div>
 
 
@@ -95,44 +98,44 @@ $perfil = $session->get("perfil_id");
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="quienes_somos">Quienes Somos</a>
+                        <a class="nav-link" href="<?php echo base_url('quienes_somos') ?>">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="acerca_de">Acerca de</a>
+                        <a class="nav-link" href="<?php echo base_url('acerca_de') ?>">Acerca de</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="registrarse">Registrarse</a>
+                        <a class="nav-link" href="<?php echo base_url('/registrarse') ?>">Registrarse</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="login">Login</a>
+                        <a class="nav-link" href="<?php echo base_url('/login') ?>">Login</a>
                     </li>
 
-                
 
-                <!-- inicio desplegable pedido por la consiga-->
 
-                <ul class="nav-item dropdown me-3 mb-2 mb-lg-0">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Formas de Contacto
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Email</a></li>
-                        <li><a class="dropdown-item" href="#">Whatsapp</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Llamada</a></li>
+                    <!-- inicio desplegable pedido por la consiga-->
+
+                    <ul class="nav-item dropdown me-3 mb-2 mb-lg-0">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Formas de Contacto
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Email</a></li>
+                            <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Llamada</a></li>
+                        </ul>
                     </ul>
+
                 </ul>
 
-            </ul>
-
-            <!--fin desplegable-->
+                <!--fin desplegable-->
 
 
 
-            <!--
+                <!--
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
@@ -159,12 +162,12 @@ $perfil = $session->get("perfil_id");
 
 
 
-            <!-- Buscador -->
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
-            <!-- Fin Buscador -->
+                <!-- Buscador -->
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <!-- Fin Buscador -->
             <?php endif; ?>
         </div>
     </div>

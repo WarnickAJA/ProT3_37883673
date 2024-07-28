@@ -31,6 +31,8 @@ class Home extends BaseController
        echo view('front/footer_view');
     }
 
+    /* Estas funciones ya no se usan, las vistas se cargan en sus respectivos controladores
+
     public function registrarse()
     {
       $data['titulo'] = 'registrarse';
@@ -47,5 +49,5 @@ class Home extends BaseController
        echo view('front/navbar_view');
        echo view('back/user/login');
        echo view('front/footer_view');
-    }
+    }*/
 }

@@ -1,0 +1,353 @@
+CRITICAL - 2024-07-26 03:29:58 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "fron/usuario_logueado.php"
+[Method: GET, Route: panel]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('fron/usuario_logueado.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('fron/usuario_logueado', [], true)
+ 3 APPPATH\Controllers\PanelController.php(19): view('fron/usuario_logueado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:00:28 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/dashboard', [], true)
+ 3 APPPATH\Controllers\PanelController.php(28): view('front/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:02:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "front/dashboard.php"
+[Method: GET, Route: dashboard]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/dashboard.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('front/dashboard', [], true)
+ 3 APPPATH\Controllers\PanelController.php(28): view('front/dashboard')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:03:30 --> ErrorException: Undefined variable $products
+[Method: GET, Route: dashboard]
+in APPPATH\Views\back\user\dashboard.php on line 23.
+ 1 APPPATH\Views\back\user\dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/dashboard', [], true)
+ 5 APPPATH\Controllers\PanelController.php(28): view('back/user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:12:50 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: dashboard]
+in APPPATH\Views\back\user\dashboard.php on line 23.
+ 1 APPPATH\Views\back\user\dashboard.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php', 23)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/dashboard', [], true)
+ 5 APPPATH\Controllers\PanelController.php(28): view('back/user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:14:27 --> Error: Call to undefined function findALL()
+[Method: GET, Route: dashboard]
+in APPPATH\Views\back\user\dashboard.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/dashboard', [], true)
+ 4 APPPATH\Controllers\PanelController.php(28): view('back/user/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:15:12 --> Error: Call to undefined method CodeIgniter\View\View::findAll()
+[Method: GET, Route: dashboard]
+in APPPATH\Views\back\user\dashboard.php on line 7.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/dashboard', [], true)
+ 4 APPPATH\Controllers\PanelController.php(28): view('back/user/dashboard')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:18:56 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: dashboard]
+in APPPATH\Views\back\user\dashboard.php on line 24.
+ 1 APPPATH\Views\back\user\dashboard.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php', 24)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/dashboard', [], true)
+ 5 APPPATH\Controllers\PanelController.php(31): view('back/user/dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 04:20:42 --> ErrorException: Undefined array key "id"
+[Method: GET, Route: dashboard]
+in APPPATH\Views\back\user\dashboard.php on line 32.
+ 1 APPPATH\Views\back\user\dashboard.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/dashboard', [], true)
+ 5 APPPATH\Controllers\PanelController.php(31): view('back/user/dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->dashboard()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:03:47 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: edit/11]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(44): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:04:50 --> ErrorException: Undefined array key "id_usuario"
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(44): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:06:17 --> ErrorException: Undefined array key "id_usuario"
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(44): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:08:23 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(44): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:10:08 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(45): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:22:25 --> ErrorException: Undefined variable $datos
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(45): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:22:35 --> ErrorException: Undefined array key "nombre"
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(44): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:29:50 --> ErrorException: Undefined array key "id_usuario"
+[Method: GET, Route: edit/11]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(46): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:36:08 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: edit/11]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(46): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:40:32 --> ErrorException: Undefined variable $usuario
+[Method: GET, Route: edit/11]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $usuario', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(46): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:41:18 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: edit/11]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(46): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:44:25 --> ErrorException: Trying to access array offset on value of type null
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 4.
+ 1 APPPATH\Views\back\user\edit.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 4)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(47): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:45:21 --> ParseError: syntax error, unexpected variable "$datos", expecting "," or ";"
+[Method: GET, Route: edit/8]
+in APPPATH\Controllers\PanelController.php on line 40.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Controllers\\PanelController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\PanelController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\PanelController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\PanelController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:45:51 --> TypeError: view(): Argument #1 ($name) must be of type string, null given, called in E:\Programacion\xamp\htdocs\ProT3_37883673\app\Controllers\PanelController.php on line 40
+[Method: GET, Route: edit/8]
+in SYSTEMPATH\Common.php on line 1159.
+ 1 APPPATH\Controllers\PanelController.php(40): view(null)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:47:11 --> Error: Undefined constant "App\Controllers\lala"
+[Method: GET, Route: edit/12]
+in APPPATH\Controllers\PanelController.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:47:40 --> ErrorException: Declaration of App\Controllers\PanelController::edit($id) must be compatible with CodeIgniter\RESTful\ResourceController::edit($id = null)
+[Method: GET, Route: edit/12]
+in APPPATH\Controllers\PanelController.php on line 36.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-26 23:51:07 --> ArgumentCountError: Too few arguments to function App\Controllers\PanelController::edit(), 0 passed in E:\Programacion\xamp\htdocs\ProT3_37883673\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit/8]
+in APPPATH\Controllers\PanelController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:51:37 --> ArgumentCountError: Too few arguments to function App\Controllers\PanelController::edit(), 0 passed in E:\Programacion\xamp\htdocs\ProT3_37883673\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: edit/8]
+in APPPATH\Controllers\PanelController.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-07-26 23:54:06 --> ErrorException: Undefined array key "username"
+[Method: GET, Route: edit/8]
+in APPPATH\Views\back\user\edit.php on line 7.
+ 1 APPPATH\Views\back\user\edit.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php', 7)
+ 2 SYSTEMPATH\View\View.php(234): include('E:\\Programacion\\xamp\\htdocs\\ProT3_37883673\\app\\Views\\back\\user\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('back/user/edit', [], true)
+ 5 APPPATH\Controllers\PanelController.php(46): view('back/user/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\PanelController->edit('8')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PanelController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

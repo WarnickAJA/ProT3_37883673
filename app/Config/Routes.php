@@ -20,3 +20,7 @@ $routes->get('/login', 'LoginController');
 $routes->post('/enviar_login', 'LoginController::auth');
 $routes->get('/panel', 'PanelController::index', ['filter' => 'auth']);
 $routes->get('/logout', 'LoginController::logout');
+
+// rutas del dashboard
+$routes->get('/dashboard', 'PanelController::dashboard');
+$routes->get('/edit/(:num)', 'PanelController::edit/$1');

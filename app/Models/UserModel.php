@@ -7,5 +7,14 @@ class UserModel extends Model
     protected $table = "usuarios";
     protected $primaryKey = "id_usuario";
     protected $allowedFields = ["nombre","apellido","usuario","email","password",
-    "perfil_id","baja","created_at"];
+    "perfil_id","baja"];
+
+    public function getUsuarios(){
+        return $this->findAll();
+    }
+
+    public function getUserId($id)
+    {
+        return $this->where('id_usuario', $id)->first();
+    }
 }

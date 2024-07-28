@@ -44,7 +44,10 @@ class UserController extends Controller{
             ]);
 
             session()->setFlashdata('success','Se ha registrado con exito');
-            return $this->response->redirect('login');
+            return $this->response->redirect('/login');
         }
     }
+
+
+    
 }

@@ -5,19 +5,19 @@
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <a class="footer-content d-flex align-items-center" href="https://www.facebook.com">
-                        <img src="assets/img/facebook.jpg" class="miicono me-2" alt="facebook">
+                        <img src="<?php echo base_url("assets/img/facebook.jpg");?>" class="miicono me-2" alt="facebook">
                         Facebook
                     </a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a class="footer-content d-flex align-items-center" href="https://mail.google.com/mail/?authuser=0">
-                        <img src="assets/img/gmail.jpg" class="miicono me-2" alt="Gmail">
+                        <img src="<?php echo base_url("assets/img/gmail.jpg");?>" class="miicono me-2" alt="Gmail">
                         timelord@gmail.com
                     </a>
                 </div>
                 <div class="col-md-4 mb-3">
                     <a class="footer-content d-flex align-items-center" href="https://web.whatsapp.com/">
-                        <img src="assets/img/whatsapp.jpg" class="miicono me-2" alt="whatsapp">
+                        <img src="<?php echo base_url("assets/img/whatsapp.jpg");?>" class="miicono me-2" alt="whatsapp">
                         ¡Respuesta <span>inmediata!</span>
                     </a>
                 </div>
