@@ -67,6 +67,21 @@ class PanelController extends Controller
         }
     }
 
+    public function delete($id)
+    {
+        $model = new UserModel();
+
+        // Verificar si el usuario existe
+        $user = $model->getUserId($id);
+        if ($user) {
+            // Eliminar el usuario
+            $model->delete($id);
+            return redirect()->to('/dashboard')->with('status', 'Usuario eliminado exitosamente');
+        } else {
+            return redirect()->to('/dashboard')->with('status', 'Usuario no encontrado');
+        }
+    }
+
 
     //
 }
