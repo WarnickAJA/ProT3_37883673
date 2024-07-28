@@ -48,21 +48,23 @@ class PanelController extends Controller
         echo view('front/footer_view');
     }
 
-    public function actualizar($id, $nombre, $apellido)
+    public function actualizar($id)
     {
         $model = new UserModel();
-        $datos = $model->getUserId($id);
 
-        $data['titulo'] = 'Editar Usuario';
-        $data['datos'] = $datos;
-        $data['nombre'] = $nombre;
-        $data['apellido'] = $apellido;
+        // Validar y obtener los datos del formulario
+        $data = [
+            'nombre'   => $this->request->getPost('nombre'),
+            'apellido' => $this->request->getPost('apellido'),
+            // Añade más campos según tus necesidades
+        ];
 
-
-        echo view('front/head_view', $data);
-        echo view('front/navbar_view');
-        echo view('back/user/actualizar',$data);
-        echo view('front/footer_view');
+        // Actualizar el usuario en la base de datos
+        if ($model->update($id, $data)) {
+            return redirect()->to('/dashboard')->with('status', 'Usuario actualizado exitosamente');
+        } else {
+            return redirect()->back()->with('status', 'Error al actualizar el usuario');
+        }
     }
 
 

@@ -2,7 +2,7 @@
 
 <div class="container mt-5">
 <h2><?= $titulo ?></h2>
-    <a href="/products/new" class="btn btn-primary mb-3">Agregar Producto</a>
+    <a href="<?php echo base_url('/registrarse') ?>" class="btn btn-primary mb-3">Agregar Usuario</a>
     <table class="table">
         <thead>
             <tr>

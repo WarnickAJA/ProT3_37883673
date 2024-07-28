@@ -24,3 +24,4 @@ $routes->get('/logout', 'LoginController::logout');
 // rutas del dashboard
 $routes->get('/dashboard', 'PanelController::dashboard');
 $routes->get('/edit/(:num)', 'PanelController::edit/$1');
+$routes->post('/actualizar/(:num)', 'PanelController::actualizar/$1');

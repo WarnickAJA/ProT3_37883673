@@ -32,7 +32,7 @@ class LoginController extends BaseController
                 $baja = $data['baja'];
                 if ($baja =="SI"){
                     $session ->setFlashdata('msg','Usuario dado de baja');
-                    return redirect()->to('/login');
+                    return redirect()->to('login');
                 }
 
                 $verify_pass = password_verify($password,$pass);
@@ -54,11 +54,11 @@ class LoginController extends BaseController
                     return redirect()->to('/panel');
                 } else{
                     $session -> setFlashdata('msg','Contraseña Incorrecta');
-                    return redirect()->to('/login');
+                    return redirect()->to('login');
                 }
             } else {
                 $session-> setFlashdata('msg','Email o Usuario Incorrecto');
-                return redirect() -> to('/login');
+                return redirect() -> to('login');
             }
         }
 
