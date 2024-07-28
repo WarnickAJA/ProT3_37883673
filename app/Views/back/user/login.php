@@ -20,10 +20,10 @@
                 <div class="card-body">
                     <form method="post" action="<?php echo base_url("/enviar_login") ?>">
                         <div class="mb-3 row">
-                            <label for="email" class="col-sm-4 col-form-label">Usuario o Email</label>
+                            <label for="email" class="col-sm-4 col-form-label">Email</label>
                             <div class="col-sm-8">
                                 <input class="form-control" name="email" type="text"
-                                    placeholder="Usuario o Email" required />
+                                    placeholder="Email" required />
                             </div>
                         </div>
                         <div class="mb-3 row">
