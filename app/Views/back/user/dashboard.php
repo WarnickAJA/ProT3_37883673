@@ -1,11 +1,4 @@
 <!-- panel para editar usuario -->
-<?php
-$session = session();
-$nombre = $session->get("nombre");
-$perfil = $session->get("perfil_id");
-
-?>
-
 
 <div class="container mt-5">
 <h2><?= $titulo ?></h2>
