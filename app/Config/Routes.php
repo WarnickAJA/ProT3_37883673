@@ -22,7 +22,9 @@ $routes->get('/panel', 'PanelController::index', ['filter' => 'auth']);
 $routes->get('/logout', 'LoginController::logout');
 
 // rutas del dashboard
-$routes->get('/dashboard', 'PanelController::dashboard');
-$routes->get('/edit/(:num)', 'PanelController::edit/$1');
-$routes->post('/actualizar/(:num)', 'PanelController::actualizar/$1');
-$routes->post('/delete/(:num)', 'PanelController::delete/$1');
+$routes->group('', ['filter' => 'adminauth'], function ($routes) {
+    $routes->get('/dashboard', 'PanelController::dashboard');
+    $routes->get('/edit/(:num)', 'PanelController::edit/$1');
+    $routes->post('/actualizar/(:num)', 'PanelController::actualizar/$1');
+    $routes->post('/delete/(:num)', 'PanelController::delete/$1');
+});

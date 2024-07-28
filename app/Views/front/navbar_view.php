@@ -25,7 +25,7 @@ $perfil = $session->get("perfil_id");
 
         <?php if (session()->perfil_id == 1): ?>
             <div class="btn btn-secondary active">
-                <a href="">ADMIN: <?php echo session("nombre"); ?></a>
+                <a href="">ADMIN: <?php echo session("usuario"); ?></a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,7 +53,7 @@ $perfil = $session->get("perfil_id");
 
         <?php elseif (session()->perfil_id == 2): ?>
             <div class="btn btn-secondary active">
-                <a href="">CLIENTE: <?php echo session("nombre"); ?></a>
+                <a href="">CLIENTE: <?php echo session("usuario"); ?></a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
